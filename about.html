@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title> Hrdynas </title>
+        <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styleAbout.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body id="pageTop">
+    <div class="main">
+        
+        <header id="header">
+            <div class="content">
+            
+                
+                <div class="logo">
+                    <a href="index.html"><img id="mainLogo" src="img/Hrdynaswhite.png" alt="Conference logo"></a>
+                </div>
+                
+                <div id="horizontalLine">
+                </div>
+                
+                <nav id="mainMenu">
+                    <ul>
+                        <li><a class="navLink" href="index.html">Domov</a></li>
+                        <li><a class="navLink" href="about.html">O nás</a></li>
+                        <li><a class="navLink" href="kariera.html">Kariéra</a></li>
+                        <li><a class="navLink" href="menu.html">Menu</a></li>
+                        <li><a class="navLink"  href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+                
+                <div id="reservationButton">
+                    <a class="resLink" href="kontakt.html">Rezervácia</a>
+                </div>
+            
+            </div>
+        </header>
+        
+        <script>
+            // Zmensenie navbaru pri scrollnuti
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+              if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+                document.getElementById("header").style.height = "90px";
+                document.getElementById("mainLogo").style.maxHeight = "2cm";
+                document.getElementById("horizontalLine").style.marginTop = "0.9cm";
+                document.getElementById("horizontalLine").style.height = "40px";
+                document.getElementById("mainMenu").style.paddingTop = "0.6cm";
+                document.getElementById("reservationButton").style.marginTop = "0.4cm";
+              } else {
+                document.getElementById("reservationButton").style.marginTop = "0.3cm";
+                document.getElementById("mainMenu").style.paddingTop = "1.7cm";
+                document.getElementById("horizontalLine").style.height = "60px";
+                document.getElementById("horizontalLine").style.marginTop = "1.7cm";
+                document.getElementById("mainLogo").style.maxHeight = "3.8cm";  
+                document.getElementById("header").style.height = "165px";
+              }
+            }
+        </script>
+        
+        <section id="section-bigImage">
+            <h2>.</h2>
+            <div></div>
+        </section>
+        
+         <section id="section-aboutus">
+            <div class="content">
+                <div class="text">
+                    <hr>
+                    <h2>Začiatky</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam sollicitudin tempor id eu nisl nunc mi. Quis imperdiet massa tincidunt nunc. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Et ultrices neque ornare aenean euismod elementum nisi. Cursus mattis molestie a iaculis at erat pellentesque adipiscing. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis. Fermentum et sollicitudin ac orci phasellus egestas. Convallis aenean et tortor at. Enim blandit volutpat maecenas volutpat blandit aliquam. Egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam. At imperdiet dui accumsan sit amet nulla facilisi. Amet consectetur adipiscing elit ut aliquam purus.</p>
+                    <hr>
+                    <h2>Parta workoholikov</h2>
+                    <p>At in tellus integer feugiat scelerisque. Dignissim sodales ut eu sem integer vitae. Arcu risus quis varius quam quisque id. Urna nec tincidunt praesent semper feugiat nibh. Quis vel eros donec ac odio tempor orci. Enim ut sem viverra aliquet eget. Eu sem integer vitae justo eget magna fermentum iaculis eu. Eget arcu dictum varius duis at. In ante metus dictum at tempor commodo. A pellentesque sit amet porttitor eget. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Faucibus scelerisque eleifend donec pretium. Bibendum arcu vitae elementum curabitur vitae nunc sed. Et malesuada fames ac turpis. Maecenas sed enim ut sem viverra aliquet. Massa tempor nec feugiat nisl pretium fusce. Sed vulputate mi sit amet mauris commodo quis.</p>
+                    <hr>
+                    <h2>Po rokoch tvrdej práce, máte u nás garanciu spokojnosti!</h2>
+                    <p>Vulputate enim nulla aliquet porttitor lacus luctus accumsan. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Massa sapien faucibus et molestie ac feugiat sed lectus. At augue eget arcu dictum varius. Arcu cursus euismod quis viverra nibh cras pulvinar mattis. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Turpis egestas integer eget aliquet nibh praesent. Ut enim blandit volutpat maecenas volutpat blandit. Tortor dignissim convallis aenean et tortor at risus viverra. Urna condimentum mattis pellentesque id. Amet luctus venenatis lectus magna fringilla urna porttitor.</p>
+                    <hr>
+                </div>
+
+            </div>
+        </section>
+        
+        <footer id="footer">
+            <div class="content">
+                <div class="column openingDates">
+                    <h3>OTVÁRACIE HODINY</h3>
+                    <p class="date">Pondelok - Štvrtok:  <span>10:00 - 15:00, 16:00 - 20:00</span></p>
+                    <p class="date">Piatok:  <span>10:00 - 15:00, 16:00 - 00:00</span></p>
+                    <p class="date">Sobota:  <span>10:00 - 15:00, 16:00 - 20:00</span></p>
+                    <p class="date">Nedela:  <span>Zatvorené</span></p>
+                </div>
+                
+                <div class="column map">
+                    <h3>KDE NÁS NÁJDETE?</h3>
+                    <a href="https://www.google.com/maps/place/Fakulta+informa%C4%8Dn%C3%ADch+technologi%C3%AD+Vysok%C3%A9ho+u%C4%8Den%C3%AD+technick%C3%A9ho+v+Brn%C4%9B/@49.226291,16.5901829,16z/data=!4m13!1m7!3m6!1s0x4712943ac03f5111:0x400af0f6614b1b0!2zQnJubywgxIxlc2tv!3b1!8m2!3d49.1950602!4d16.6068371!3m4!1s0x471294099dc06bbb:0xbfcf161b01a48b0d!8m2!3d49.2266155!4d16.5966403?hl=cs-CZ">
+                    <img src="img/fitgooglemaps.png" alt="smileyface">
+                    </a>
+                </div>
+                
+                 <div class="socials">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+                
+                <div class="copyright">
+                    <p>Created by Marek Žiška (xziska03) @ VUT FIT, ITW 2019</p>
+                    <p>Images are not my own.</p>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+    </body>
+</html>

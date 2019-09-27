@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title> Hrdynas </title>
+        <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styleKontakt.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    
+    <body id="pageTop">
+    <div class="main">
+        
+        <header id="header">
+            <div class="content">
+            
+                <div class="logo">
+                    <a href="index.html"><img id="mainLogo" src="img/Hrdynaswhite.png" alt="Conference logo"></a>
+                </div>
+                
+                <div id="horizontalLine">
+                </div>
+                
+                 <nav id="mainMenu">
+                    <ul>
+                        <li><a class="navLink" href="index.html">Domov</a></li>
+                        <li><a class="navLink" href="about.html">O nás</a></li>
+                        <li><a class="navLink" href="kariera.html">Kariéra</a></li>
+                        <li><a class="navLink" href="menu.html">Menu</a></li>
+                        <li><a class="navLink"  href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+                
+                <div id="reservationButton">
+                    <a class="resLink" href="kontakt.html">Rezervácia</a>
+                </div>
+            
+            </div>
+        </header>
+        
+        <script>
+            // Zmensenie navbaru pri scrollnuti
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+              if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+                document.getElementById("header").style.height = "90px";
+                document.getElementById("mainLogo").style.maxHeight = "2cm";
+                document.getElementById("horizontalLine").style.marginTop = "0.9cm";
+                document.getElementById("horizontalLine").style.height = "40px";
+                document.getElementById("mainMenu").style.paddingTop = "0.6cm";
+                document.getElementById("reservationButton").style.marginTop = "0.4cm";
+              } else {
+                document.getElementById("reservationButton").style.marginTop = "0.3cm";
+                document.getElementById("mainMenu").style.paddingTop = "1.7cm";
+                document.getElementById("horizontalLine").style.height = "60px";
+                document.getElementById("horizontalLine").style.marginTop = "1.7cm";
+                document.getElementById("mainLogo").style.maxHeight = "3.8cm";  
+                document.getElementById("header").style.height = "165px";
+              }
+            }
+        </script>
+        
+        <section id="section-contact">
+            <div class="content">
+                <hr>
+                <h2>Kontaktujte nás</h2>
+                <div class="column inputContact">
+                    <input placeholder="Meno">
+                    <input placeholder="Telefónne číslo">
+                    <input placeholder="Email">
+                </div>
+                <div class="column inputText">
+                    <form>
+                        <textarea placeholder="Sem vložte text ..."></textarea>
+                    </form>
+                </div> 
+                <div class="button">
+                    <button>Odoslať</button>
+                </div>
+            </div>
+            <hr>
+        </section>
+        
+        
+        <footer id="footer">
+            <div class="content">
+                <div class="column openingDates">
+                    <h3>OTVÁRACIE HODINY</h3>
+                    <p class="date">Pondelok - Štvrtok:  <span>10:00 - 15:00, 16:00 - 20:00</span></p>
+                    <p class="date">Piatok:  <span>10:00 - 15:00, 16:00 - 00:00</span></p>
+                    <p class="date">Sobota:  <span>10:00 - 15:00, 16:00 - 20:00</span></p>
+                    <p class="date">Nedela:  <span>Zatvorené</span></p>
+                </div>
+                
+                <div class="column map">
+                    <h3>KDE NÁS NÁJDETE?</h3>
+                    <a href="https://www.google.com/maps/place/Fakulta+informa%C4%8Dn%C3%ADch+technologi%C3%AD+Vysok%C3%A9ho+u%C4%8Den%C3%AD+technick%C3%A9ho+v+Brn%C4%9B/@49.226291,16.5901829,16z/data=!4m13!1m7!3m6!1s0x4712943ac03f5111:0x400af0f6614b1b0!2zQnJubywgxIxlc2tv!3b1!8m2!3d49.1950602!4d16.6068371!3m4!1s0x471294099dc06bbb:0xbfcf161b01a48b0d!8m2!3d49.2266155!4d16.5966403?hl=cs-CZ">
+                    <img src="img/fitgooglemaps.png" alt="smileyface">
+                    </a>
+                </div>
+                
+                 <div class="socials">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+                
+                <div class="copyright">
+                    <p>Created by Marek Žiška (xziska03) @ VUT FIT, ITW 2019</p>
+                    <p>Images are not my own.</p>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+    </body>
+</html>

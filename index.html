@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title> Hrdynas </title>
+        <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    
+    <body id="pageTop">
+    <div class="main">
+        
+        <header id="header">
+            <div class="content">
+            
+                
+                <div class="logo">
+                    <a href="index.html"><img id="mainLogo" src="img/Hrdynaswhite.png" alt="Conference logo"></a>
+                </div>
+                
+                <div id="horizontalLine">
+                </div>
+                
+                <nav id="mainMenu">
+                    <ul>
+                        <li><a class="navLink" href="index.html">Domov</a></li>
+                        <li><a class="navLink" href="about.html">O nás</a></li>
+                        <li><a class="navLink" href="kariera.html">Kariéra</a></li>
+                        <li><a class="navLink" href="menu.html">Menu</a></li>
+                        <li><a class="navLink"  href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+                
+                <div id="reservationButton">
+                    <a class="resLink" href="kontakt.html">Rezervácia</a>
+                </div>
+            
+            </div>
+        </header>
+        
+        <script>
+            // pri scrollovani sa zmensi navigacne okno
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+              if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+                document.getElementById("header").style.height = "90px";
+                document.getElementById("mainLogo").style.maxHeight = "2cm";
+                document.getElementById("horizontalLine").style.marginTop = "0.9cm";
+                document.getElementById("horizontalLine").style.height = "40px";
+                document.getElementById("mainMenu").style.paddingTop = "0.6cm";
+                document.getElementById("reservationButton").style.marginTop = "0.4cm";
+              } else {
+                document.getElementById("reservationButton").style.marginTop = "0.3cm";
+                document.getElementById("mainMenu").style.paddingTop = "1.7cm";
+                document.getElementById("horizontalLine").style.height = "60px";
+                document.getElementById("horizontalLine").style.marginTop = "1.7cm";
+                document.getElementById("mainLogo").style.maxHeight = "3.8cm";  
+                document.getElementById("header").style.height = "165px";
+              }
+            }
+        </script>
+        
+        <section id="section-slider">
+            <div class="content">
+                <figure class="images">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                </figure>
+                
+                <div id="slideHeadline">
+                    <h1>U HRDYNAS</h1>
+                    <p>* * * * *</p>
+                    <h2>Bar & Restaurant</h2>
+                </div>
+                
+            </div>
+        </section> 
+        
+        <section id="section-intro">
+            <div class="content">
+                <div class="column text">
+                    <h3>ÚVOD</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Palo ma suche nohi chrbet tyješ. eget velit aliquet sagittis. Senectus et netus et malesuada fames ac turpis egestas integer. Aliquam id diam maecenas ultricies mi eget mauris pharetra et. Euismod in pellentesque massa placerat duis ultricies lacus sed. Libero justo laoreet sit amet cursus. Eros in cursus turpis massa tincidunt dui ut ornare. In egestas erat imperdiet sed. Bukos govno tri deraues logol 11 pivus na ex. vitae auctor eu augue ut lectus arcu bibendum at. At tempor commodo ullamcorper a lacus. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Augue eget arcu dictum varius duis. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. Aliquet lectus proin nibh nisl condimentum id venenatis a. Pellentesque sit amet porttitor eget dolor morbi.</p>
+
+                    <p>Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Pharetra convallis posuere morbi leo urna molestie at. Elementum curabitur vitae nunc sed velit. Phasellus egestas tellus rutrum tellus pellentesque eu. </p>
+                </div>
+                <div class="column">
+                    <img src="img/chef.jpg" alt="smileyface">
+                </div>
+            </div>
+        </section>
+
+        <section id="section-news">
+            <div class="content">
+                <div class="slideshow">
+                    <h3>AKTUALITY</h3>
+                    <div class="slider">
+                        <div class="slide">
+                            <h4>Slávnostné narazanie novinky Baran svetlá jedenástka.</h4>
+                            <img src="img/beer.jpg" alt="smileyface">
+                            <a class="date">20.6.2019</a>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In dictum non consectetur a erat nam at lectus. Zhasny to, zavryto. ZHASNY morbi tristique senectus et netus. Nisl rhoncus mattis rhoncus urna neque. Sit amet massa vitae tortor. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget.</p>
+                        </div>
+                        <div class="slide">
+                            <h4>Máme zatvorené!</h4>
+                            <img src="img/closed.jpg" alt="smileyface">
+                            <a class="date">12.7.2019</a>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bohaa otvor tu lannicku nech je trochen prievan. Auris pellentesque pulvinar pellentesque habitant. Mattis nunc sed blandit libero.  Habitant morbi tristique senectus et netus. </p>
+                        </div>
+                        <div class="slide">
+                            <h4>Hladáme upratovačku.</h4>
+                            <img src="img/upratovacka.jpeg" alt="smileyface">
+                            <a class="date">7.7.2019</a>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Karolus albinus mge rankus nubus. joumattis nunc sed blandit libero. Quis viverra nibh cras pulvinar mattis nunc sed blandit libero.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="section-speciality">
+            <div class="content">
+                <h2>ŠPECIALITA MESIACA</h2>
+                <a id="showHideButton" onclick="showSpeciality()">UKÁZAŤ</a>
+                <div id="hiddenBox">
+                    <hr>
+                    <div class="column">
+                        <img src="img/burger.jpg" alt="burgerImage" class="column image">
+                    </div>
+                    <div class="column description"></div>
+                        <h3 class="headline">MAJOV BURGER</h3>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris pellentesque pulvinar pellentesque habitant. Mattis nunc sed blandit libero. Quis viverra nibh cras pulvinar mattis nunc sed blandit libero. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Sem fringilla ut morbi tincidunt augue. Tincidunt dui ut ornare lectus sit amet est placerat in. Arcu cursus euismod quis viverra nibh cras pulvinar mattis. Lectus magna fringilla urna porttitor rhoncus dolor purus non. In dictum non consectetur a erat nam at lectus. Habitant morbi tristique senectus et netus. Nisl rhoncus mattis rhoncus urna neque. Sit amet massa vitae tortor. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget.</p>
+                        <p class="price">Cena - 12€</p>
+                    <hr>
+                </div>
+            </div>
+        </section>
+        
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+        <script>
+            var hiddenElement = document.getElementById("hiddenBox");
+            var buttonText = document.getElementById("showHideButton");
+            var cookieHide = Cookies.get("hiddenFlag");
+            if(cookieHide == "true") {
+                hiddenElement.style.display = "none";
+                buttonText.innerHTML = "UKÁZAŤ";
+            } else {
+                hiddenElement.style.display = "block";
+                buttonText.innerHTML = "SKRYŤ";
+            }
+            
+            function showSpeciality() {
+              var hiddenElement = document.getElementById("hiddenBox");
+              var buttonText = document.getElementById("showHideButton");
+              if (hiddenElement.style.display === "none") {
+                hiddenElement.style.display = "block";
+                buttonText.innerHTML = "SKRYŤ";
+                Cookies.set("hiddenFlag", "false", { expires: 7 }) 
+              } else {
+                hiddenElement.style.display = "none";
+                buttonText.innerHTML = "UKÁZAŤ";
+                Cookies.set("hiddenFlag", "true", { expires: 7 })    
+              }
+            }
+        </script>
+        
+        <footer id="footer">
+            <div class="content">
+                <div class="column openingDates">
+                    <h3>OTVÁRACÍ HODINY</h3>
+                    <p class="date">Pondelok - Štvrtok:  <span>10:00 - 15:00, 16:00 - 20:00</span></p>
+                    <p class="date">Piatok:  <span>10:00 - 15:00, 16:00 - 00:00</span></p>
+                    <p class="date">Sobota:  <span>10:00 - 15:00, 16:00 - 20:00</span></p>
+                    <p class="date">Nedela:  <span>Zatvorené</span></p>
+                </div>
+                
+                <div class="column map">
+                    <h3>KDE NÁS NÁJDETE?</h3>
+                    <a href="https://www.google.com/maps/place/Fakulta+informa%C4%8Dn%C3%ADch+technologi%C3%AD+Vysok%C3%A9ho+u%C4%8Den%C3%AD+technick%C3%A9ho+v+Brn%C4%9B/@49.226291,16.5901829,16z/data=!4m13!1m7!3m6!1s0x4712943ac03f5111:0x400af0f6614b1b0!2zQnJubywgxIxlc2tv!3b1!8m2!3d49.1950602!4d16.6068371!3m4!1s0x471294099dc06bbb:0xbfcf161b01a48b0d!8m2!3d49.2266155!4d16.5966403?hl=cs-CZ">
+                    <img src="img/fitgooglemaps.png" alt="smileyface">
+                    </a>
+                </div>
+                
+                 <div class="socials">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+                
+                <div class="copyright">
+                    <p>Created by Marek Žiška (xziska03) @ VUT FIT, ITW 2019</p>
+                    <p>Images are not my own.</p>
+                </div>
+            </div>
+        </footer>
+    
+        
+    </div>
+    </body>
+</html>

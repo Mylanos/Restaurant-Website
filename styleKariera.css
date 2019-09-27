@@ -1,0 +1,321 @@
+*{
+    font-family: 'Abel', serif;
+    text-align: justify;
+}
+html {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+p{
+    display: block;
+}
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+/*****************************HEADER*********************************/
+/*logo*/
+#header{
+    background-color: rgba(29, 30, 34, .85);
+    height: 165px;
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%; /* Full width */
+    z-index: 1;
+    transition: 0.3s;
+}
+.logo{
+    float: left;
+    padding: 5px;
+    margin-left: 2cm;
+    transition: 0.4s;
+}
+#mainLogo{
+    transition: 0.8s;
+    max-height: 4cm;
+    margin-top: 5px;
+    padding: 0;
+}
+#horizontalLine{
+    height: 60px;
+    margin-top: 1.7cm;
+    float: left;
+    border-left: solid;
+    color: white;
+    border-width: 1px;
+    margin-left: 10px;
+    transition: 0.4s;
+}
+/*logo*/
+/*navigation links*/
+#mainMenu{
+    padding-top: 1.7cm;
+    transition: 0.4s;
+}
+#mainMenu li{
+    float: left;
+    display: inline-block;
+    margin-left: 1cm;
+}
+#mainMenu ul{
+    list-style-type: none;
+}
+#mainMenu .navLink{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+#mainMenu .navLink:hover{
+    color: #feda6a;
+    padding-bottom: 0.5cm;
+    border-color: #feda6a;
+    border-bottom: solid;
+    border-width: 1px;
+    transition: 0.4s;
+}
+#reservationButton{
+    float: right;
+    margin-right: 1.7cm;
+    margin-top: 0.4cm;
+}
+#reservationButton .resLink{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+    color: #feda6a;
+    border-color: #feda6a;
+    border: solid;
+    border-width: 1px;
+}
+#reservationButton .resLink:hover{
+    color: white;
+    border-color: #e4c45f;
+    background-color: #e4c45f;
+    border: solid;
+    border-width: 1px;
+    transition: 0.8s;
+}
+/********kariera**********/
+#section-bigImage{
+    width: 100%;
+    height: 100%;
+}
+#section-bigImage h2{
+    display: none;
+}
+#section-bigImage div{
+    background-image: url(img/jobs.jpg);
+    width: 100%;
+    height: 825px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section-availableJobs .content{
+    width: 100%;
+    overflow: auto;
+}
+#section-availableJobs hr{
+    margin: 2cm 4cm;
+}
+#section-availableJobs .column1{
+    float: left;
+    width: 50%;
+}
+#section-availableJobs .column1 .image{
+    width: 70%;
+    height: 350px;
+    margin-bottom: 1cm;
+}
+#section-availableJobs .column1 .earnings{
+    text-align-last: right;
+}
+#section-availableJobs .column1 p{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    text-align: justify;
+    padding-left: 3cm;
+}
+#section-availableJobs .column1 h2{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #feda6a;
+    padding-left: 3cm;
+}
+/*druhy odstavec*/
+#section-availableJobs .column2{
+    float: left;
+    width: 50%;
+}
+#section-availableJobs .column2 .image{
+    width: 70%;
+    height: 350px;
+    margin-bottom: 1cm;
+    margin-left: 5cm;
+}
+#section-availableJobs .column2 .earnings{
+    text-align-last: right;
+}
+#section-availableJobs .column2 p{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    text-align: justify;
+    margin-right: 5cm;
+}
+#section-availableJobs .column2 p:nth-child(4){
+    margin-bottom: 2cm;
+    margin-top: 2cm;
+}
+#section-availableJobs .column2 h2{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: #feda6a;
+    padding-right: 3cm;
+    margin-top: 1cm;
+}
+#section-availableJobs a{
+    color: #feda6a;
+}
+#section-availableJobs a:hover{
+    color: #cbae54;
+}
+
+/*****************************FOOTER*********************************/
+/******openingDates******/
+#footer .content{
+    background-color: #1d1e22;
+    height: 100%;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#footer .content .openingDates h3{
+    color: #feda6a;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    font-size: 23px;
+}
+#footer .content .date{
+    display: block;
+    color: white;
+}
+#footer .content p, 
+#footer .content h3{
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    line-height: 30px;
+}
+#footer .content .date span{
+    display: block;
+    color: #feda6a;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+}
+#footer .content .openingDates{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+}
+/******map******/
+#footer .content .map h3{
+    color: #feda6a;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+#footer .content .map{
+    width: 45%;
+}
+#footer .content .map img{
+    width: 78%;
+    height: 300px;
+    margin-left: 1.8cm;
+}
+#footer .column{
+    float: left;
+    padding: 30px;
+}
+/*socials*/
+.socials{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.socials .fa{
+    color: white;
+    padding: 18px;
+    font-size: 23px;
+    width: 18px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+.socials .fa-twitter:hover{
+    color: #00aced;
+    border-color: #00aced;
+}
+.socials .fa-instagram:hover{
+    color: #E1306C;
+    border-color: #E1306C;
+}
+.socials .fa-facebook:hover{
+    color: #3C5A99;
+    border-color: #3C5A99;
+}
+/*socialne siete*/
+/******credits******/
+#footer .copyright p{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 10px;
+    line-height: 14px;
+}
+/*****************************FOOTER*********************************/
+/************PRINT*************/
+@media print{
+    header, footer{
+        display: none;
+    }
+    .bigImage{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    #section-availableJobs .column1 .image{
+        margin-bottom: 5cm;
+        height: 200px;
+        margin-top: 4cm;
+    }
+    #section-availableJobs .column2{
+        margin-top: 1cm;
+    }
+    #section-availableJobs .column2 p{
+        margin-right: -2cm;
+        margin-left: 1cm;
+    }
+    #section-availableJobs .column2 .image{
+        margin-left: 2cm;
+        margin-right: -1cm;
+        height: 200px;
+        margin-top: 2.5cm;
+    }
+} 
